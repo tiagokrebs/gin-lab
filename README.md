@@ -5,10 +5,8 @@
 ```
 git clone https://github.com/tiagokrebs/gin-lab
 cd gin-lab
-
-go mod init github.com/tiagokrebs/gin-lab
-
-go run go run ping.go
+go mod tidy
+go run ping.go
 ```
 
 In another terminal run
